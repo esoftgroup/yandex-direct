@@ -5,7 +5,7 @@
     "keywords": ["yandex","direct"],
     "homepage": "https://github.com/esoftgroup/yandex-direct",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Igor Fominykh",
