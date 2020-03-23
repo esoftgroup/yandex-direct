@@ -9,6 +9,12 @@ class Config
     public $access_token = '';
     public $client_login = '';
 
+    public function __construct() {
+        $this->access_token = $this->getAccessToken();
+        $this->client_login = $this->getClientLogin();
+        return $this;
+    }
+
     public function getAccessToken() {
         return $this->access_token;
     }
