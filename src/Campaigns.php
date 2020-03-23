@@ -60,7 +60,7 @@ class Campaigns extends Config
         $result = file_get_contents($url, 0, $streamOptions);
         $campaigns = json_decode($result, true);
 
-        if($campaigns['error']) {
+        if(isset($campaigns['error'])) {
             return $campaigns['error']['error_code']." - ".$campaigns['error']['error_detail'].": ".$campaigns['error']['error_string'];
         } else {
             return $campaigns['result']['Campaigns'];
