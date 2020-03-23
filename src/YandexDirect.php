@@ -20,6 +20,5 @@ class YandexDirect
 
     public function index() {
 
-
     }
 }
