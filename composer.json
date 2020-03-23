@@ -1,0 +1,21 @@
+{
+    "name": "esoftgroup/yandex-direct",
+    "description": "Library for work with API Yandex.Direct",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Igor Fominykh",
+            "email": "info@e-softgroup.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Esoftgroup\\YandexDirect\\": "src/"
+        }
+    }
+}
