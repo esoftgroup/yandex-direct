@@ -17,4 +17,9 @@ class YandexDirect
     {
         return $toSay;
     }
+
+    public function index() {
+
+
+    }
 }
