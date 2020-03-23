@@ -2,6 +2,7 @@
     "name": "esoftgroup/yandex-direct",
     "description": "Library for work with API Yandex.Direct",
     "type": "library",
+    "version": "1.0.0",
     "require": {
         "php": ">=7.2"
     },
