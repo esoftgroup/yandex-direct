@@ -19,11 +19,7 @@ class KeywordBids extends Config
         //--- Входные данные ----------------------------------------------------//
         // Адрес сервиса Campaigns для отправки JSON-запросов (регистрозависимый)
         $url = $this->api_url.'keywordbids';
-
-        // Запрос логина
-        $data_connect = $this->sourcedata->get_data_connect(array('account_id' => $filter['account_id'], 'type' => 'direct'));
-        //print_r($data_connect);
-
+        
         // OAuth-токен пользователя, от имени которого будут выполняться запросы
         $token = $this->access_token;
         // Логин клиента рекламного агентства
