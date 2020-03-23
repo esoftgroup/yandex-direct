@@ -14,10 +14,10 @@
     }
   ],
   "require": {
-    "php": ">=5.3.0"
+    "php": ">=7.2"
   },
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "Esoftgroup\\YandexDirect\\": "src/"
     }
   }

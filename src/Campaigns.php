@@ -11,14 +11,10 @@
 // namespace HelloComposer;
 namespace Esoftgroup\YandexDirect;
 
-class YandexDirect
+class Campaigns
 {
-    public function get_campaigns($toSay = "Nothing given")
+    public function get_campaigns()
     {
-        return $toSay;
-    }
-
-    public function index() {
-
+        return array(1,2,3);
     }
 }
