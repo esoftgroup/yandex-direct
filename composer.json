@@ -1,8 +1,8 @@
 {
   "name": "esoftgroup/yandex-direct",
   "type": "library",
-  "description": "Библиотека для работы с API Яндекс.Директа версии 5.",
-  "keywords": ["yandex","direct", "яндекс", "директ", "esoftgroup yandex-direct", "esoftgroup"],
+  "description": "Библиотека для работы с API Яндекс.Директа версии 5",
+  "keywords": ["yandex","direct", "esoftgroup"],
   "homepage": "https://github.com/esoftgroup/yandex-direct",
   "license": "MIT",
   "authors": [
