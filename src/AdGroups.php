@@ -28,10 +28,10 @@ class adgroups extends \Esoftgroup\YandexDirect\Config
         //print_r($data_connect);
 
         // OAuth-токен пользователя, от имени которого будут выполняться запросы
-        $token = $data_connect['access_token'];
+        $token = $this->access_token;
         // Логин клиента рекламного агентства
         // Обязательный параметр, если запросы выполняются от имени рекламного агентства
-        $clientLogin = $data_connect['client_login'];
+        $clientLogin = $this->client_login;
 
         //--- Подготовка и выполнение запроса -----------------------------------//
         // Установка HTTP-заголовков запроса

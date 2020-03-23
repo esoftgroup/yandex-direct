@@ -21,12 +21,11 @@ class Keywords extends Config
         // Адрес сервиса Campaigns для отправки JSON-запросов (регистрозависимый)
         $url = $this->api_url.'keywords';
 
-
         // OAuth-токен пользователя, от имени которого будут выполняться запросы
-        $token = $data_connect['access_token'];
+        $token = $this->access_token;
         // Логин клиента рекламного агентства
         // Обязательный параметр, если запросы выполняются от имени рекламного агентства
-        $clientLogin = $data_connect['client_login'];
+        $clientLogin = $this->client_login;
 
         //--- Подготовка и выполнение запроса -----------------------------------//
         // Установка HTTP-заголовков запроса
