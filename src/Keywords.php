@@ -9,10 +9,10 @@ class Keywords extends Config
         $campaign_ids_filter = array();
         $adgroup_ids_filter = array();
 
-        if(!empty($filter['campaigns_ids']))
+        if(!empty($filter['campaignsIds']))
             $campaign_ids_filter = (array)$filter['campaignsIds'];
 
-        if(!empty($filter['adgroups_ids']))
+        if(!empty($filter['adgroupsIds']))
             $adgroup_ids_filter = (array)$filter['adgroupsIds'];
 
         //--- Входные данные ----------------------------------------------------//
